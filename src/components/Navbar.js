@@ -40,7 +40,7 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}>
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand as={Link} to="/" className="d-flex">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
           <span style={{ fontWeight: "bold", fontSize: "1.2em" }}>A.D</span>
         </Navbar.Brand>
