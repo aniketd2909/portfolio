@@ -1,13 +1,8 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
-import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (
@@ -23,17 +18,14 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
-
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> Aniket Dhanawade</strong>
               </h1>
-
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
-
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
@@ -45,7 +37,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-
       <Home2 />
     </section>
   );

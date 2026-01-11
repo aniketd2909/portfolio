@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
@@ -23,7 +22,7 @@ function Home2() {
             Feel free to{" "}
             <a
               style={{ textDecoration: "none" }}
-              href="mailto:dhanawadeaniket72@gmail.com">
+              href="mailto:ani.dhanawade@gmail.com">
               <span className="purple">contact </span>
             </a>{" "}
             me
@@ -31,7 +30,7 @@ function Home2() {
           <ul className="home-about-social-links">
             <li className="social-icons">
               <a
-                href="mailto:dhanawadeaniket72@gmail.com"
+                href="mailto:ani.dhanawade@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons">
@@ -47,7 +46,6 @@ function Home2() {
                 <AiFillGithub />
               </a>
             </li>
-
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/dhanawadeaniket/"
@@ -63,4 +61,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

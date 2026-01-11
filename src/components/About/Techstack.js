@@ -1,79 +1,51 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
-
 import { FaAngular } from "react-icons/fa";
 import {
   SiCsharp,
   SiDotnet,
-  SiAzuredevops,
-  SiMicrosoftsqlserver,
+  SiTypescript,
   SiMysql,
   SiMicrosoftazure,
   SiAmazonaws,
+  SiDrupal,
 } from "react-icons/si";
-import {
-  DiJavascript1,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-  DiReact,
-} from "react-icons/di";
-import { SiFirebase } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { DiNodejs, DiMongodb, DiPython, DiJava } from "react-icons/di";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDotnet />
+        <SiDrupal />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAzuredevops />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <FaAngular />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftsqlserver />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftazure />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiDotnet />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiMicrosoftazure />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />

@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
@@ -27,17 +26,6 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={careerHubImg}
-              isBlog={false}
-              vidPath={careerHubVid}
-              title="CareerHub - Job Search Portal"
-              description="
-              Implemented a job portal using React Native"
-              ghLink="https://github.com/aniketd2909/CareerHub"
-            />
-          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={amazonClone}
@@ -79,7 +67,6 @@ function Projects() {
               ghLink="https://github.com/aniketd2909/IPAssess_IoT_Devices"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={diffusionModel}
@@ -90,7 +77,6 @@ function Projects() {
               ghLink="https://github.com/aniketd2909/Diffusion_Model---DDPM-DDIM.git"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={salesPrice}
@@ -101,7 +87,6 @@ function Projects() {
               ghLink="https://github.com/aniketd2909/Effect_COVID-9_Florida_Housing_Market"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={reactCRUD}
@@ -111,7 +96,6 @@ function Projects() {
               ghLink="https://github.com/aniketd2909/Crud_React"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={angularCRUD}
@@ -122,7 +106,6 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={SkillUP}
@@ -132,7 +115,6 @@ function Projects() {
               ghLink="https://github.com/aniketd2909/SkillUP"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={infoExtract}
@@ -142,13 +124,23 @@ function Projects() {
               ghLink="https://github.com/aniketd2909/Information_Extraction_From_Cheques"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
               title="Keep-Notes-App"
               description="Created a web-app to manage your notes"
               ghLink="https://github.com/aniketd2909/Keep-Notes-App"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={careerHubImg}
+              isBlog={false}
+              vidPath={careerHubVid}
+              title="CareerHub - Job Search Portal"
+              description="
+              Implemented a job portal using React Native"
+              ghLink="https://github.com/aniketd2909/CareerHub"
             />
           </Col>
         </Row>
