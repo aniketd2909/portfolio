@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a77ebc87.css",
-    "main.js": "/static/js/main.203c7de2.js",
+    "main.js": "/static/js/main.8d31eeb9.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/careerHub.mp4": "/static/media/careerHub.aefb2878ec702e77e8fa.mp4",
     "static/media/amazon-clone.png": "/static/media/amazon-clone.345940f4c6db9ee3ba50.png",
@@ -10,7 +10,7 @@
     "static/media/jwt.png": "/static/media/jwt.8c304aace0f5a2e56db5.png",
     "static/media/Parking-Voilation.png": "/static/media/Parking-Voilation.15a4a49b5737bf54fd99.png",
     "static/media/Sales-Price.png": "/static/media/Sales-Price.f6ec9e0c77b9a95e0191.png",
-    "static/media/Aniket_Resume.pdf": "/static/media/Aniket_Resume.3b373c0faa362415eed9.pdf",
+    "static/media/Aniket_Resume.pdf": "/static/media/Aniket_Resume.8e42a3810266dbde7666.pdf",
     "static/media/Diffusion-Model.png": "/static/media/Diffusion-Model.41e806b9704e3d03ea29.png",
     "static/media/info-extract-cheque.jpg": "/static/media/info-extract-cheque.596f28a5b733079eb383.jpg",
     "static/media/react-CRUD.png": "/static/media/react-CRUD.c0ae481ddc04e2c2b031.png",
@@ -23,11 +23,11 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.a77ebc87.css.map": "/static/css/main.a77ebc87.css.map",
-    "main.203c7de2.js.map": "/static/js/main.203c7de2.js.map",
+    "main.8d31eeb9.js.map": "/static/js/main.8d31eeb9.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a77ebc87.css",
-    "static/js/main.203c7de2.js"
+    "static/js/main.8d31eeb9.js"
   ]
 }
