@@ -28,6 +28,26 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              // imgPath={iotDevice}
+              isBlog={false}
+              title="ConnectRider - Ride Sharing App"
+              description="
+              Implemented AI-driven user onboarding & real-time driver notifications, leveraging a Redis Geolocation service. Build scalable ride-booking platform with concurrent reservation logic & Redis caching."
+              ghLink="https://github.com/aniketd2909/portfolio"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iotDevice}
+              isBlog={false}
+              title="IoT Device Identification"
+              description="
+              Utilized IoT device packet capture files to extract features and tooled ML algorithms (RF, DT, KNN, Naïve Bayes, XGB) with scikit-learn, achieving 90% accuracy for RF and DT on single packet and 99% accuracy with aggregation of 9 packets"
+              ghLink="https://github.com/aniketd2909/IPAssess_IoT_Devices"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={amazonClone}
               isBlog={false}
               title="Amazon-Clone"
@@ -55,16 +75,6 @@ function Projects() {
               description="
               Data gathering, cleaning, exploratory analysis, hypothesis formulation (approx. 13GB of Parking Data); augmented the parking data with the temperature data from NOAA; performed t-test on the vehicles to get some useful insights"
               ghLink="https://github.com/aniketd2909/Parking_Voilations_Tickets_Big_Data"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={iotDevice}
-              isBlog={false}
-              title="IoT Device Identification"
-              description="
-              Utilized IoT device packet capture files to extract features and tooled ML algorithms (RF, DT, KNN, Naïve Bayes, XGB) with scikit-learn, achieving 90% accuracy for RF and DT on single packet and 99% accuracy with aggregation of 9 packets"
-              ghLink="https://github.com/aniketd2909/IPAssess_IoT_Devices"
             />
           </Col>
           <Col md={4} className="project-card">

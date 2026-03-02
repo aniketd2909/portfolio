@@ -1,9 +1,13 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+import LanguagesStack from "./LanguagesStack";
+import WebAndApisStack from "./WebAndApisStack";
+import DatabasesStack from "./DatabasesStack";
+import CloudStack from "./CloudStack";
+import ToolsAndInfraStack from "./ToolsAndInfraStack";
+import ConceptsStack from "./ConceptsStack";
 
 function About() {
   return (
@@ -29,14 +33,41 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <strong className="purple">Languages</strong>
         </h1>
-        <Techstack />
+        <LanguagesStack />
+
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Web & APIs</strong>
         </h1>
-        <Toolstack />
+        <WebAndApisStack />
+
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col xs={12} md={6}>
+            <h1 className="project-heading">
+              <strong className="purple">Databases</strong>
+            </h1>
+            <DatabasesStack />
+          </Col>
+          <Col xs={12} md={6}>
+            <h1 className="project-heading">
+              <strong className="purple">Cloud</strong>
+            </h1>
+            <CloudStack />
+          </Col>
+        </Row>
+
+        <h1 className="project-heading">
+          <strong className="purple">Tools & Infrastructure</strong>
+        </h1>
+        <ToolsAndInfraStack />
+        {/* 
+        <h1 className="project-heading">
+          <strong className="purple">Concepts</strong>
+        </h1>
+        <ConceptsStack /> */}
       </Container>
     </Container>
   );

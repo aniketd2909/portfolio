@@ -1,9 +1,7 @@
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiVisualstudio,
   SiPostman,
-  SiJupyter,
   SiApachespark,
   SiScikitlearn,
   SiPytorch,
@@ -19,9 +17,6 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
@@ -48,10 +43,7 @@ function Toolstack() {
         <SiDask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudio />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
+        <SiVisualstudiocode />
       </Col>
     </Row>
   );
