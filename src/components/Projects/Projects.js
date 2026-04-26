@@ -30,6 +30,17 @@ function Projects() {
             <ProjectCard
               // imgPath={iotDevice}
               isBlog={false}
+              title="TruthLens"
+              description="
+              Fake News Detector: Multi-agent web app build using LangGraph to combat misinformation. Integrated LLMs for 
+              content analysis, fact-checking, and providing real-time credibility assessments."
+              ghLink="https://github.com/aniketd2909/TruthLens"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={iotDevice}
+              isBlog={false}
               title="ConnectRider - Ride Sharing App"
               description="
               Implemented AI-driven user onboarding & real-time driver notifications, leveraging a Redis Geolocation service. Build scalable ride-booking platform with concurrent reservation logic & Redis caching."
