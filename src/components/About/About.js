@@ -7,7 +7,6 @@ import WebAndApisStack from "./WebAndApisStack";
 import DatabasesStack from "./DatabasesStack";
 import CloudStack from "./CloudStack";
 import ToolsAndInfraStack from "./ToolsAndInfraStack";
-import ConceptsStack from "./ConceptsStack";
 
 function About() {
   return (
