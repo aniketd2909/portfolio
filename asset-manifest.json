@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6bfe4842.css",
-    "main.js": "/static/js/main.729a5574.js",
+    "main.js": "/static/js/main.eea2f1f5.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/careerHub.mp4": "/static/media/careerHub.aefb2878ec702e77e8fa.mp4",
     "static/media/amazon-clone.png": "/static/media/amazon-clone.345940f4c6db9ee3ba50.png",
@@ -9,11 +9,11 @@
     "static/media/IoT-Device.png": "/static/media/IoT-Device.1953ba2b00988fdd84be.png",
     "static/media/jwt.png": "/static/media/jwt.8c304aace0f5a2e56db5.png",
     "static/media/Parking-Voilation.png": "/static/media/Parking-Voilation.15a4a49b5737bf54fd99.png",
-    "static/media/Aniket_Resume.pdf": "/static/media/Aniket_Resume.b8a3f1837d8ae70b1bd3.pdf",
     "static/media/Sales-Price.png": "/static/media/Sales-Price.f6ec9e0c77b9a95e0191.png",
     "static/media/Diffusion-Model.png": "/static/media/Diffusion-Model.41e806b9704e3d03ea29.png",
     "static/media/info-extract-cheque.jpg": "/static/media/info-extract-cheque.596f28a5b733079eb383.jpg",
     "static/media/react-CRUD.png": "/static/media/react-CRUD.c0ae481ddc04e2c2b031.png",
+    "static/media/AD_Resume.pdf": "/static/media/AD_Resume.b1f92f9783055a36d540.pdf",
     "static/media/angular-CRUD.png": "/static/media/angular-CRUD.51c431671be27799f929.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
@@ -23,11 +23,11 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.6bfe4842.css.map": "/static/css/main.6bfe4842.css.map",
-    "main.729a5574.js.map": "/static/js/main.729a5574.js.map",
+    "main.eea2f1f5.js.map": "/static/js/main.eea2f1f5.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bfe4842.css",
-    "static/js/main.729a5574.js"
+    "static/js/main.eea2f1f5.js"
   ]
 }
